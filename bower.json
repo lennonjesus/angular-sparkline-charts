@@ -1,0 +1,40 @@
+{
+  "name": "angular-peity-charts",
+  "main": "dist/angular-sparkline-charts.min.js",
+  "version": "v0.0.1",
+  "homepage": "https://github.com/lennonjesus/angular-sparkline-charts",
+  "authors": [
+    "Lennon Jesus <lennon.jesus@gmail.com>"
+  ],
+  "description": "AngularJS directives for inline JQuery Sparkline Charts",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "sparklines",
+    "charts",
+    "svg",
+    "angularjs",
+    "angular",
+    "pie",
+    "bar",
+    "donut",
+    "inline",
+    "tristate",
+    "discrete",
+    "bullet",
+    "graph"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.sparkline": "~2.1.2",
+    "jquery": "1.4.3"
+  }
+}
