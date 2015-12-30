@@ -15,8 +15,6 @@
             var opts={};
 
             opts.type = attrs.type || 'line';
-            opts.width = attrs.width;
-            opts.height = attrs.height;
 
             scope.$watch(scope.data, function () {
                 render();
