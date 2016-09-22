@@ -1,6 +1,6 @@
 {
   "name": "angular-sparkline-charts",
-  "version": "v0.0.1",
+  "version": "0.1.0",
   "description": "AngularJS directives for inline JQuery Sparkline Charts",
   "main": "angular-sparkline-charts.js",
   "scripts": {
@@ -30,6 +30,7 @@
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.0",
+    "gulp-bump": "^2.4.0",
     "gulp-concat": "^2.6.0",
     "gulp-jshint": "^2.0.0",
     "gulp-uglify": "^1.5.1",
