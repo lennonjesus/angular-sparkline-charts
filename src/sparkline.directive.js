@@ -11,12 +11,15 @@
         options: "="
       },
       link: function (scope, elem, attrs, ngModel) {
-        
-        var opts={};
 
-        opts.type = attrs.type || 'pie';
-        opts.width = attrs.width || 24;
-        opts.height = attrs.height || 24;
+        var opts={};
+        if(scope.options === null){
+          opts.type = attrs.type || 'pie';
+          opts.width = attrs.width || 24;
+          opts.height = attrs.height || 24;
+        }else{
+          opts = scope.options;
+        }
 
         scope.$watch(scope.data, function () {
           render();
